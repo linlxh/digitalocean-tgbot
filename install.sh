@@ -6,7 +6,7 @@ case "$ARCH" in
 esac
 
 FILE="Linux-$T.tar.gz"
-URL=$(curl -s https://api.github.com/repos/xkatld/digitalocean-tgbot/releases/latest | grep "browser_download_url" | grep "$FILE" | cut -d '"' -f 4)
+URL=$(curl -s https://api.github.com/repos/linlxh/digitalocean-tgbot/releases/latest | grep "browser_download_url" | grep "$FILE" | cut -d '"' -f 4)
 
 if [ -z "$URL" ]; then
     echo "[错误] 无法获取下载地址，请检查网络"
