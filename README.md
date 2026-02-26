@@ -14,14 +14,14 @@ BOT:
 ## 部署
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/xkatld/digitalocean-tgbot/refs/heads/main/install.sh)
+bash <(curl -sL https://raw.githubusercontent.com/linlxh/digitalocean-tgbot/refs/heads/main/install.sh)
 ```
 
 ## 升级
 
 ```bash
 pkill Linux-
-bash <(curl -sL https://raw.githubusercontent.com/xkatld/digitalocean-tgbot/refs/heads/main/install.sh)
+bash <(curl -sL https://raw.githubusercontent.com/linlxh/digitalocean-tgbot/refs/heads/main/install.sh)
 ```
 
 ## 协议
